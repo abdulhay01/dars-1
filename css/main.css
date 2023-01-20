@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1120px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.site-header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.site-header__logo{
+   
+}
+.site-header__img{
+    position: relative;
+}
+.site-header__img-deadline, 
+.site-header__img-hover{
+    
+    display: none;
+}
+.site-header__img:hover{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.site-header__img:deadline{
+    display: block;
+    position: absolute;
+    top: 0;
+}
